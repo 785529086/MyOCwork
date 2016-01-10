@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BB72931C18407B00540659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB72921C18407B00540659 /* main.m */; };
+		49BB729B1C18426400540659 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB729A1C18426400540659 /* Person.m */; };
+		49BB729E1C18438800540659 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB729D1C18438800540659 /* Teacher.m */; };
+		49BB72A11C18447F00540659 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB72A01C18447F00540659 /* Student.m */; };
+		49BB72A41C1847EE00540659 /* OurClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB72A31C1847EE00540659 /* OurClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49BB728D1C18407B00540659 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49BB728F1C18407B00540659 /* OC07课后作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC07课后作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BB72921C18407B00540659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49BB72991C18426400540659 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		49BB729A1C18426400540659 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		49BB729C1C18438800540659 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		49BB729D1C18438800540659 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		49BB729F1C18447F00540659 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		49BB72A01C18447F00540659 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		49BB72A21C1847EE00540659 /* OurClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OurClass.h; sourceTree = "<group>"; };
+		49BB72A31C1847EE00540659 /* OurClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OurClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BB728C1C18407B00540659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BB72861C18407B00540659 = {
+			isa = PBXGroup;
+			children = (
+				49BB72911C18407B00540659 /* OC07课后作业 */,
+				49BB72901C18407B00540659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BB72901C18407B00540659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BB728F1C18407B00540659 /* OC07课后作业 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BB72911C18407B00540659 /* OC07课后作业 */ = {
+			isa = PBXGroup;
+			children = (
+				49BB72921C18407B00540659 /* main.m */,
+				49BB72A21C1847EE00540659 /* OurClass.h */,
+				49BB72A31C1847EE00540659 /* OurClass.m */,
+				49BB729F1C18447F00540659 /* Student.h */,
+				49BB72A01C18447F00540659 /* Student.m */,
+				49BB72991C18426400540659 /* Person.h */,
+				49BB729A1C18426400540659 /* Person.m */,
+				49BB729C1C18438800540659 /* Teacher.h */,
+				49BB729D1C18438800540659 /* Teacher.m */,
+			);
+			path = "OC07课后作业";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BB728E1C18407B00540659 /* OC07课后作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BB72961C18407B00540659 /* Build configuration list for PBXNativeTarget "OC07课后作业" */;
+			buildPhases = (
+				49BB728B1C18407B00540659 /* Sources */,
+				49BB728C1C18407B00540659 /* Frameworks */,
+				49BB728D1C18407B00540659 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC07课后作业";
+			productName = "OC07课后作业";
+			productReference = 49BB728F1C18407B00540659 /* OC07课后作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BB72871C18407B00540659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lanou.com;
+				TargetAttributes = {
+					49BB728E1C18407B00540659 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 49BB728A1C18407B00540659 /* Build configuration list for PBXProject "OC07课后作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49BB72861C18407B00540659;
+			productRefGroup = 49BB72901C18407B00540659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BB728E1C18407B00540659 /* OC07课后作业 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BB728B1C18407B00540659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB729E1C18438800540659 /* Teacher.m in Sources */,
+				49BB72A41C1847EE00540659 /* OurClass.m in Sources */,
+				49BB729B1C18426400540659 /* Person.m in Sources */,
+				49BB72931C18407B00540659 /* main.m in Sources */,
+				49BB72A11C18447F00540659 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49BB72941C18407B00540659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49BB72951C18407B00540659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49BB72971C18407B00540659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BB72981C18407B00540659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BB728A1C18407B00540659 /* Build configuration list for PBXProject "OC07课后作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB72941C18407B00540659 /* Debug */,
+				49BB72951C18407B00540659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BB72961C18407B00540659 /* Build configuration list for PBXNativeTarget "OC07课后作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB72971C18407B00540659 /* Debug */,
+				49BB72981C18407B00540659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BB72871C18407B00540659 /* Project object */;
+}
